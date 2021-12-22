@@ -39,11 +39,11 @@ body {
     outline: none;
     border-radius: 5px;
 }
-.botton:last-child {
+.button:last-child {
     margin-right: 0;
 }
 .button:active {
-    bottom: -1px;
+    opacity: 0.5;
 }
 
 .button_type_all {
@@ -86,4 +86,7 @@ body {
 }
 .bird {
     background-color: var(--color-blue);
+}
+.hide {
+    display: none;
 }
