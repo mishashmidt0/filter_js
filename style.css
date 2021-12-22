@@ -1,0 +1,24 @@
+:root {
+    --color-orang: #ffa728;
+    --color-red: #e66c6e;
+    --color-green: #a7d6bb;
+    --color-blue: #1c4961;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Color New", Courier, monospace;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: #faabd7;
+}
+
+.header {
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
